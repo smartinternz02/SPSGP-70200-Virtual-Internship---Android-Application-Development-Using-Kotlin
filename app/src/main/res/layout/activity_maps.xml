@@ -21,9 +21,9 @@
         android:id="@+id/bottom_navigation_view"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:itemTextColor="#C64646"
-        app:itemTextAppearanceActive="@color/black"
-        app:itemIconTint="@color/design_default_color_secondary_variant"
+        app:itemTextColor="#0B0707"
+
+        app:itemIconTint="#870115"
         app:menu="@menu/menu_bottom" />
 
 

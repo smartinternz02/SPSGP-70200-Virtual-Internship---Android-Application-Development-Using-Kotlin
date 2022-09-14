@@ -9,7 +9,7 @@
         android:fullBackupContent="@xml/backup_rules"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+
         android:supportsRtl="true"
         android:theme="@style/Theme.KotlinNearby"
         tools:targetApi="31">
@@ -22,12 +22,12 @@
                 https://developers.google.com/maps/documentation/android-sdk/get-api-key
 
              Once you have your API key (it starts with "AIza"), define a new property in your
-             project's local.properties file (e.g. MAPS_API_KEY=AIzaSyC1lmvw2E6UX5jzGteU80kGQqRd6rhwUyI), and replace the
+             project's local.properties file (e.g. MAPS_API_KEY=AIzaSyCybr2S8R73fHz3wxExj0xtvbsSAxyax94), and replace the
              "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
         -->
         <meta-data
-            android:name="com.google.android.geo.AIzaSyBMQNjJ99pkfININLtg09F9ASERzqeWqyA"
-            android:value="AIzaSyBMQNjJ99pkfININLtg09F9ASERzqeWqyA" />
+            android:name="com.google.android.geo.AIzaSyCybr2S8R73fHz3wxExj0xtvbsSAxyax94"
+            android:value="AIzaSyCybr2S8R73fHz3wxExj0xtvbsSAxyax94" />
 
         <activity
             android:name=".MapsActivity"

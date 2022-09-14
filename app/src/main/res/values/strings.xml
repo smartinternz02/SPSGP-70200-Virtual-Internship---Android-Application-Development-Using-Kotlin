@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">KotlinNearby</string>
-    <string name="title_activity_maps">MapsActivity</string>
-    <string name="kotlinnearby">AIzaSyBMQNjJ99pkfININLtg09F9ASERzqeWqyA</string>
+    <string name="title_activity_maps">kotlinnearby</string>
+    <string name="kotlinnearby">AIzaSyCybr2S8R73fHz3wxExj0xtvbsSAxyax94</string>
     <string name="school">School</string>
     <string name="market">Market</string>
     <string name="hospital">Hospital</string>
