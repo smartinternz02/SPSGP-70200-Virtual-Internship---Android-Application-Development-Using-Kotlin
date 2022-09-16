@@ -5,6 +5,14 @@ plugins {
 }
 
 android {
+    signingConfigs {
+        release {
+            storeFile file('D:\\my phots and doc\\KotlinNearby\\app\\android.jks')
+            storePassword 'K@dbe_123'
+            keyAlias 'K@dbe_123'
+            keyPassword 'K@dbe_123'
+        }
+    }
     compileSdk 32
 
     defaultConfig {
@@ -21,6 +29,7 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.release
         }
     }
     compileOptions {
